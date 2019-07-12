@@ -35,8 +35,6 @@ class MainActivity : AppCompatActivity() {
             keys.add(it)
             values.add(expectedHashMap[it]!!)
         }
-
-//        val array: List<String> = STRING.split(",")
         recyclerView.adapter = MainActivityAdapter(keys, values)
 
     }
